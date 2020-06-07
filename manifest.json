@@ -1,0 +1,20 @@
+{
+  "name": "None shall pass",
+  "description": "Prevent unwanted websites to appear in your Google search results, when query is typed in the browser",
+  "version": "0.1",
+  "manifest_version": 2,
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Google + None shall pass",
+      "keyword": "google.com",
+      "search_url": "https://www.google.com/search?q={searchTerms}+-site%3Aamazon.*",
+      "favicon_url": "https://www.google.com/images/branding/product/ico/googleg_lodp.ico",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  },
+  "icons" : {
+    "48" : "icon-48.png",
+    "96" : "icon-96.png"
+  }
+}
