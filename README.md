@@ -8,3 +8,4 @@ The blocking occurs only when the browser native search bar is used, not when yo
 
 - provide an option page letting users choose which sites to block
 - become compatible with other search engines
+- let the user disable the blocking on icon click
